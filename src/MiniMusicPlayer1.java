@@ -27,8 +27,8 @@ public class MiniMusicPlayer1 {
                 int y = (int) ((Math.random() * 60) + 10);
                 int width = (int) ((Math.random() * 120) + 10);
                 int height = (int) ((Math.random() * 120) + 10);
-                int x1 = (int) ((Math.random() * 60) + 10);
-                g.fillRect(x1,y,width, height);
+                int x = 20;
+                g.fillRect(x,y,width, height);
                 msg = false;
             }
         }
