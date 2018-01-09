@@ -24,11 +24,11 @@ public class MiniMusicPlayer1 {
                 Graphics2D g2d = (Graphics2D) g;
                 Color randomColor = new Color((int) (Math.random() * 220), (int) (Math.random() * 255), (int) (Math.random() * 255));
                 g.setColor(randomColor);
-                int y = (int) ((Math.random() * 40) + 10);
+                int y = 15;
                 int width = (int) ((Math.random() * 120) + 10);
                 int height = (int) ((Math.random() * 120) + 10);
-                int x1 = (int) ((Math.random() * 40) + 10);
-                g.fillRect(x1,y,width, height);
+                int x = 20;
+                g.fillRect(x,y,width, height);
                 msg = false;
             }
         }
