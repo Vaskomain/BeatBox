@@ -22,13 +22,13 @@ public class MiniMusicPlayer1 {
         protected void paintComponent(Graphics g) {
             if (msg){
                 Graphics2D g2d = (Graphics2D) g;
-                Color randomColor = new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255));
+                Color randomColor = new Color((int) (Math.random() * 220), (int) (Math.random() * 255), (int) (Math.random() * 255));
                 g.setColor(randomColor);
-                int x = (int) ((Math.random() * 40) + 10);
                 int y = (int) ((Math.random() * 40) + 10);
                 int width = (int) ((Math.random() * 120) + 10);
                 int height = (int) ((Math.random() * 120) + 10);
-                g.fillRect(x,y,width, height);
+                int x1 = (int) ((Math.random() * 40) + 10);
+                g.fillRect(x1,y,width, height);
                 msg = false;
             }
         }
